@@ -5,7 +5,7 @@
       <div class="col-sm-12"><img src="view/image/logo.png" alt="OpenCart" title="OpenCart" /></div>
     </div>
   </header>
-  <h1>Upgrade</h1>
+  <h1>Обновление</h1>
   <div class="row">
     <div class="col-sm-9">
       <?php if ($error_warning) { ?>
@@ -15,27 +15,27 @@
       <?php } ?>
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
         <fieldset>
-          <p><b>Follow these steps carefully!</b></p>
+          <p><b>Внимательно следуйте пошаговой инструкции!</b></p>
           <ol>
-            <li>Post any upgrade script errors problems in the forums</li>
-            <li>After upgrade, clear any cookies in your browser to avoid getting token errors.</li>
-            <li>Load the admin page & press Ctrl+F5 twice to force the browser to update the css changes.</li>
-            <li>Goto Admin -> Users -> User Groups and Edit the Top Adminstrator group. Check All boxes.</li>
-            <li>Goto Admin and Edit the main System Settings. Update all fields and click save, even if nothing changed.</li>
-            <li>Load the store front & press Ctrl+F5 twice to force the browser to update the css changes.</li>
+			<li>О любых ошибках и проблемах при обновлении сообщите на форуме</li>
+			<li>После обновления, удалите все куки в своем браузере, чтобы избежать ошибок с токенами.</li>
+			<li>Перейдите в Административную часть и дважды нажмите на клавиатуре Ctrl+F5 для обновления закешированных CSS стилей.</li>
+			<li>Перейдите в разделе Меню -> Система -> Пользователи -> Группы пользователей и для Главный администратор отметьте все чекбоксы.</li>
+			<li>Перейдите в разделе Меню -> Система-> Настройки. Проверьте все значения настроек магазина и нажмите кнопку Сохранить даже если ничего не меняли.</li>
+			<li>Перейдите в Витрину магазина и дважды нажмите Ctrl+F5 для обновления кешированных CSS стилей.</li>
           </ol>
         </fieldset>
         <div class="buttons">
           <div class="text-right">
-            <input type="submit" value="Continue" class="button" />
+            <input type="submit" value="Продолжить" class="button" />
           </div>
         </div>
       </form>
     </div>
     <div class="col-sm-3">
       <ul class="list-group">
-        <li class="list-group-item"><b>Upgrade</b></li>
-        <li class="list-group-item">Finished</li>
+        <li class="list-group-item"><b>Обновление</b></li>
+        <li class="list-group-item">Завершено</li>
       </ul>
     </div>
   </div>

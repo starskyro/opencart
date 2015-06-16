@@ -16,6 +16,7 @@ class ModelPaymentPPStandard extends Model {
 		}
 
 		$currencies = array(
+            'RUB',
 			'AUD',
 			'CAD',
 			'EUR',
